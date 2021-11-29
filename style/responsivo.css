@@ -1,0 +1,40 @@
+/*Estilo para tablets*/
+@media only screen and (min-width: 788px) and (max-width: 979px) {
+}
+
+/*Estilo para smartphone*/
+@media only screen and (max-width: 787px) {
+  .menu-logo {
+    margin: 0 auto;
+  }
+  .menu-nav a {
+    font-size: 0.7em;
+  }
+
+  #slider {
+    height: 100%;
+  }
+  .mid-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0;
+    text-align: center;
+  }
+
+  .boxes {
+    text-align: center;
+  }
+  .container-boxes {
+    flex-direction: column;
+  }
+  .boxes-item {
+    width: 85%;
+    height: 20%;
+    margin: 20px;
+  }
+  .footer {
+    height: 100px;
+  }
+}
